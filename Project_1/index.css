@@ -1,3 +1,7 @@
+body{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 ul{
     list-style-type: none;
     display: inline-block;
@@ -49,6 +53,7 @@ i{
 }
 
 .header-div{
+    height: 60px;
     background-color: blue;
     /* justify-content: center; */
     align-items: center;
@@ -73,4 +78,80 @@ i{
    border: none;
    background-color:rgba(245, 40, 145, 0.8);
    font-size: 17px;
+}
+
+.para{
+    font-size: 20px;
+    text-align: center;
+    /* margin: 10px; */
+    background-color: lightblue;
+}
+
+.img1{
+    background-color: aqua;
+}
+
+.content-block{
+    text-align: center;
+}
+
+.big-img{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    /* background-color: lightblue; */
+    height:600px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 1px;
+    justify-content: space-evenly   ;
+}
+
+footer p{
+    color:  rgb(98, 82, 90);
+}
+
+.div-1
+{
+    padding: 5px 10px;
+    width: 18%;
+    /* background-color: red; */
+}
+
+.div-2
+{
+    padding: 5px 10px;
+    width: 13%;
+    /* background-color: blue; */
+}
+
+.div-3
+{
+    padding: 5px 10px;
+    width: 13%;
+    /* background-color: white; */
+}
+
+.div-4
+{
+    padding: 5px 10px;
+    width: 13%;
+    /* background-color: lightgray; */
+}
+
+.div-5
+{
+    padding: 5px 10px;
+    width: 13%;
+    /* background-color: green; */
+}
+
+.div-6{
+    padding: 5px 10px;
+    width: 13%;
+    /* background-color: yellow; */
 }
