@@ -1,17 +1,21 @@
-body{
+body {
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-ul{
+a:link, a:visited {
+    color: #ea4c89;
+}
+
+ul {
     list-style-type: none;
     display: inline-block;
 }
 
-header{
+header {
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.header-li-element{
+.header-li-element {
     color: rgb(98, 82, 90);
     display: inline-block;
     margin-right: 20px;
@@ -20,17 +24,25 @@ header{
     line-height: 20px;
 }
 
-i{
-    color: black;
+header li:hover {
+    cursor: pointer;
 }
 
-.search-img{
+.search-img {
     height: 30px;
     width: 30px;
     /* background-color: aqua; */
 }
 
-.subsec1{
+.search-img:hover {
+    cursor: pointer;
+}
+
+header button:hover {
+    cursor: pointer;
+}
+
+.subsec1 {
     /* background-color: lightcoral; */
     display: flex;
     flex-direction: row;
@@ -38,7 +50,7 @@ i{
     float: left;
 }
 
-.subsec2{
+.subsec2 {
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -47,110 +59,131 @@ i{
     padding: 15px 15px;
 }
 
-.dribble-img{
+.dribble-img {
     height: 60px;
     width: 130px
 }
 
-.header-div{
+.header-div {
     height: 60px;
-    background-color: blue;
+    /* background-color: blue; */
     /* justify-content: center; */
     align-items: center;
     /* display: flex; */
     flex-direction: row;
 }
 
-.butt-signin{
-   margin-right: 10px;
-   margin-left: 10px;
-   border: none;
-   background-color: transparent;
-   font-size: 17px;
+.butt-signin {
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
 }
 
-.butt-signup{
-   color: white;
-   margin-right: 10px;
-   margin-left: 10px;
-   padding: 8px 8px;
-   border-radius: 15%;
-   border: none;
-   background-color:rgba(245, 40, 145, 0.8);
-   font-size: 17px;
+.butt-signup {
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 8px 8px;
+    border-radius: 15%;
+    border: none;
+    background-color: rgba(245, 40, 145, 0.8);
+    font-size: 17px;
 }
 
-.para{
+.para {
     font-size: 20px;
     text-align: center;
     /* margin: 10px; */
-    background-color: lightblue;
 }
 
-.img1{
-    background-color: aqua;
-}
-
-.content-block{
+.content-block {
     text-align: center;
 }
 
-.big-img{
-    background-color: black;
+.holder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+}
+
+.holder-1 {
+    width: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 
-footer{
-    /* background-color: lightblue; */
-    height:600px;
+.holder-2 {
+    height: 100px;
+    box-sizing: border-box;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.holder-3 {
+    width: 25%;
+}
+
+.char-img {
+    height: 50px;
+    width: 50px;
+}
+
+footer p {
+    color: rgb(98, 82, 90);
+}
+
+.footer-class {
+    height: 600px;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     padding: 10px 1px;
-    justify-content: space-evenly   ;
+    padding: 10px 10px;
+    /* background-color: lightgreen; */
 }
 
-footer p{
-    color:  rgb(98, 82, 90);
+.elements-img {
+    width: 200px;
 }
 
-.div-1
-{
+.div-1 {
     padding: 5px 10px;
     width: 18%;
     /* background-color: red; */
 }
 
-.div-2
-{
+.div-2 {
     padding: 5px 10px;
     width: 13%;
     /* background-color: blue; */
 }
 
-.div-3
-{
+.div-3 {
     padding: 5px 10px;
     width: 13%;
     /* background-color: white; */
 }
 
-.div-4
-{
+.div-4 {
     padding: 5px 10px;
     width: 13%;
     /* background-color: lightgray; */
 }
 
-.div-5
-{
+.div-5 {
     padding: 5px 10px;
     width: 13%;
     /* background-color: green; */
 }
 
-.div-6{
+.div-6 {
     padding: 5px 10px;
     width: 13%;
     /* background-color: yellow; */
