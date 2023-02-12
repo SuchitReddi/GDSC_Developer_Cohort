@@ -2,7 +2,8 @@ body {
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #ea4c89;
 }
 
@@ -128,6 +129,10 @@ header button:hover {
 
 .holder-3 {
     width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .char-img {
